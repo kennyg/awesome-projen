@@ -10,9 +10,8 @@ jobs:
     name: Link Checker
     runs-on: ubuntu-latest
     permissions:
-      actions: write
       contents: read
-      id-token: write
+      issues: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v3

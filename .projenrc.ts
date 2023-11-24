@@ -24,9 +24,8 @@ linkChecker?.addJobs({
     runsOn: ['ubuntu-latest'],
     name: 'Link Checker',
     permissions: {
-      actions: JobPermission.WRITE,
       contents: JobPermission.READ,
-      idToken: JobPermission.WRITE,
+      issues: JobPermission.WRITE,
     },
     steps: [
       { name: 'Checkout code', uses: 'actions/checkout@v3' },
