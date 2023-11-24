@@ -32,7 +32,7 @@ linkChecker?.addJobs({
       {
         name: 'Check Links',
         id: 'lychee',
-        uses: 'lycheeverse/lychee-action@v1.5.1',
+        uses: 'lycheeverse/lychee-action@v1.5.2',
         with: {
           args: '--verbose --max-concurrency 32 --timeout 120 --no-progress *.md',
         },
