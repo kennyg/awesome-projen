@@ -8,6 +8,8 @@ const project = new AwesomeList({
   devDeps: ['p6-projen-project-awesome-list@1.0.1'],
   name: 'awesome-projen',
   repositoryUrl: 'https://github.com/pgollucci/awesome-projen.git',
+  buildWorkflow: false,
+  release: false,
   projenrcTs: true,
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
